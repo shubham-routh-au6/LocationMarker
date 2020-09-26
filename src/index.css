@@ -1,0 +1,157 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  /* height: 100vh;
+  width: 100vw; */
+}
+.heading {
+  display: flex;
+  background-color: #625261;
+
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.loginBtn {
+  width: 6rem;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  outline: none;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: #89beb3;
+}
+.headingText {
+  color: black;
+}
+
+.imageLogo {
+  margin-top: -1rem;
+}
+.videoCon {
+  width: 1520px;
+}
+.firstDiv {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  height: 280px;
+}
+.firstChild {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  background-color: #c3aed6;
+}
+.secondChild {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #8675a9;
+}
+
+.registerPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 552px;
+}
+.LoginPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 552px;
+}
+.errorHead {
+  color: red;
+}
+.link_re {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.3em;
+}
+.welcomeParaForReg {
+  color: black;
+  font-size: 1.5rem;
+}
+.logoutBtnRender {
+  margin: 2rem;
+}
+
+.help {
+  color: white;
+  margin: 3rem;
+  position: relative;
+  overflow: hidden;
+  width: 450px;
+  height: 4rem;
+}
+.info {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 4rem;
+  transform: translateY(100%);
+  transition: transform 0.4s ease-in-out;
+}
+.help:hover .info {
+  transform: translateY(0%);
+}
+
+.marker {
+  transform: translate(-50%, -100%);
+}
+
+.error {
+  color: #f05305;
+}
+
+.marker.red path {
+  fill: #f05305;
+}
+
+.marker.yellow path {
+  fill: #def515;
+}
+
+.popup {
+  width: 40vw;
+  padding: 1rem;
+}
+
+.popup img {
+  height: 200px;
+  width: auto;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.entry-form label,
+.entry-form input,
+.entry-form textarea,
+.entry-form button {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  display: block;
+  width: 100%;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  outline: none;
+}
