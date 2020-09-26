@@ -36,8 +36,8 @@ function Register(props) {
         setLoader(false);
         console.log(data);
         if (data.status === "ok") {
-          localStorage.setItem("token", data.token);
-          props.history.push("/mainPage");
+          // localStorage.setItem("token", data.token);
+          props.history.push("/login");
         }
         return setMessage(data.message);
       })
